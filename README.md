@@ -1,7 +1,7 @@
 
 # 🚀 Arbinvader
 
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-brightgreen)](https://arbinvader.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-brightgreen)](https://pixelorbit.vercel.app/)
 [![NFT](https://img.shields.io/badge/NFT-Integrated-blue)](https://arbinvader.vercel.app/)
 [![Game](https://img.shields.io/badge/Game-Space%20Invader-orange)](https://arbinvader.vercel.app/)
 [![Arbitrum](https://img.shields.io/badge/Network-Arbitrum-blue)](https://arbinvader.vercel.app/)
