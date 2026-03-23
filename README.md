@@ -1,69 +1,67 @@
 
-# 🚀 Arbinvader
+# 🚀 PixelOrbit
 
 [![Vercel](https://img.shields.io/badge/Vercel-Deployed-brightgreen)](https://pixelorbit.vercel.app/)
-[![NFT](https://img.shields.io/badge/NFT-Integrated-blue)](https://arbinvader.vercel.app/)
-[![Game](https://img.shields.io/badge/Game-Space%20Invader-orange)](https://arbinvader.vercel.app/)
-[![Arbitrum](https://img.shields.io/badge/Network-Arbitrum-blue)](https://arbinvader.vercel.app/)
+[![NFT](https://img.shields.io/badge/NFT-Integrated-blue)](https://pixelorbit.vercel.app/)
+[![Game](https://img.shields.io/badge/Game-Space%20Invader-orange)](https://pixelorbit.vercel.app/)
+[![Arbitrum](https://img.shields.io/badge/Network-Arbitrum-blue)](https://pixelorbit.vercel.app/)
 
-## 🎮 What is Arbinvader?
+## 🎮 What is PixelOrbit?
 
-Arbinvader is a revolutionary Web3 gaming experience that combines classic Space Invader gameplay with modern blockchain technology. Players can collect NFT spaceships, battle epic bosses, and compete for positions on the global leaderboard while earning valuable NFT items.
+PixelOrbit is an evolutionary Web3 gaming experience that revives the classic Space Invaders aesthetic on the high-performance Hedera network. We have moved away from conventional, high-latency smart contracts, instead utilizing Hedera Consensus Service (HCS) for real-time high-score logging and Hedera Token Service (HTS) for instant, low-cost asset management.
 
 ### 🌟 Key Features
 
-- **NFT Spaceships**: Own and pilot unique spacecraft with different abilities and characteristics
-- **Boss Battles**: Face challenging bosses to earn rare NFT items
-- **Global Leaderboard**: Compete with players worldwide for the highest scores
-- **NFT Marketplace**: Trade or auction your collected items and spaceships
-- **Tiered Loot System**: Collect items ranging from Common to Legendary rarity
+- **HTS-Native Assets**: Unique spaceships and items minted as native Hedera tokens (HTS), ensuring high-speed transfers and predictable, low fees.
+- **HCS Leaderboard**: High scores and player activities are recorded permanently on the Hedera Consensus Service, providing total transparency without the overhead of a virtual machine.
+- **HashPack Integration**: Seamless connection via HashPack WalletConnect for secure transaction authorization and asset management.
+- **Decentralized Loot System**: Earn rare items distributed directly through HTS minting mechanisms upon defeating epic bosses.
+- **No Conventional Smart Contracts**: Logic and marketplace activities are powered by HCS messages, drastically reducing gas costs and increasing execution speed.
 
 ## 🎯 Problem Solution
 
-Traditional gaming experiences often lack:
-- True ownership of in-game assets
-- Real economic value for player achievements
-- Meaningful progression system
-- Community-driven marketplace
+Traditional blockchain gaming often suffers from unpredictable gas fees, slow block times, and complex smart contract vulnerabilities.
+PixelOrbit solves these issues by:
 
-Arbinvader solves these issues by:
-- Implementing NFT technology for true asset ownership
-- Creating a player-driven economy
-- Providing tangible rewards for skill and dedication
-- Building a sustainable gaming ecosystem
+    Eliminating EVM Latency: Using HCS as the "Source of Truth" for game logic and marketplace logs, making the game feel as responsive as a traditional web app.
 
-## 💡 Why Arbinvader?
+    True Asset Ownership: All ships and items are managed directly in your Hedera account via HTS, not hidden inside a contract's state.
 
-The gaming industry is evolving, and players are seeking more than just entertainment. They want:
-- To own their in-game assets
-- To be rewarded for their time and skill
-- To participate in a player-driven economy
-- To have fun while earning
+    Transparent Economy: All marketplace trades and auction bids are logged via HCS messages, allowing for a community-auditable, immutable history.
 
-Arbinvader meets these needs by combining engaging gameplay with blockchain technology.
+## 💡 Why PixelOrbit on Hedera?
+
+The gaming industry demands scalability. By building on Hedera, PixelOrbit offers:
+
+    Instant Transaction Finality: No more waiting for multiple block confirmations.
+
+    Fixed Fees: Transaction costs are ultra-low and pegged to USD (paid in HBAR), protecting players from price volatility.
+
+    Negative Carbon Footprint: Play on the most energy-efficient public network in the industry.
 
 ## 🎁 Value to Players
 
-- Exciting classic gameplay with modern features
-- Competitive leaderboard system
-- Unique NFT spaceships with different attributes
-- Tiered item collection system
-- Rare boss drops
-- Active NFT marketplace
-- Auction system for rare items
-- Trading opportunities
+Fast, classic gameplay with modern Web3 rewards.
 
-## 🔗 Smart Contracts
+    Tamper-proof global leaderboard powered by HCS.
 
-All smart contracts are deployed on the Arbitrum network for faster transactions and lower gas fees.
+    Native HTS NFTs with built-in royalty support for creators.
 
-### Smart Contract Features
-- **ERC-721 Standard**: All NFTs follow the ERC-721 standard for maximum compatibility
-- **On-chain Metadata**: All item attributes and spaceship characteristics stored on-chain
-- **Verified Source Code**: All contracts are verified on Arbitrum Explorer
-- **Security Audited**: Contracts audited by leading blockchain security firms
-- **Gas Optimized**: Implemented efficient patterns to minimize gas costs
-- **Upgrade Proxy**: Contracts are upgradeable via proxy pattern for future improvements
+    A transparent marketplace and auction system utilizing Consensus messages.
+
+
+## 🔗 Hedera Architecture
+
+PixelOrbit leverages native Hedera services for maximum efficiency:
+
+    Hedera Token Service (HTS): Handles the creation, transfer, and association of all spaceship and item NFTs.
+
+    Hedera Consensus Service (HCS): Acts as the decentralized messaging bus for high scores, battle logs, and marketplace transactions.
+
+    Mirror Nodes: Used to query HCS data and token balances without taxing the main network.
+
+    HashPack WalletConnect: The industry standard for secure, mobile-friendly wallet interaction on Hedera.
+
 
 ## 🎨 NFT Items and Tiers
 
@@ -77,18 +75,18 @@ All smart contracts are deployed on the Arbitrum network for faster transactions
 
 ## 🚀 Getting Started
 
-1. Visit [Arbinvader](https://arbinvader.vercel.app/)
-2. Connect your Web3 wallet (MetaMask)
-3. Purchase your first spaceship NFT or use the free one
-4. Start playing and earning!
+1. Visit [Pixelorbit](https://pixelorbit.vercel.app/)
+2. Connect your wallet using HashPack (via WalletConnect)
+3. Purchase your first ship or use the free-tier ship to start climbing the leaderboard!
 
 ## 🛠️ Technical Stack
 
-- Frontend: Next.js
-- Blockchain: Arbitrum Sepolia
-- Smart Contracts: Solidity
-- NFT Standard: ERC-721
-- Contract Security: OpenZeppelin
+- Frontend: Next.js & Tailwind CSS
+- Network: Hedera Testnet
+- Wallet Integration: HashPack (WalletConnect)
+- Logging & Logic: Hedera Consensus Service (HCS)
+- Asset Standards: Hedera Token Service (HTS)
+- SDK: Hedera JavaScript SDK
 
 ## 🎮 App Preview
 
@@ -98,7 +96,7 @@ All smart contracts are deployed on the Arbitrum network for faster transactions
 **Video Demo**
 
 
-[![Arbinvader-demo](https://img.youtube.com/vi/t05dXCk316k/0.jpg)](https://www.youtube.com/watch?v=t05dXCk316k)
+[![Pixelorbit-demo](https://img.youtube.com/vi/CedA92vOUmg/0.jpg)](https://www.youtube.com/watch?v=CedA92vOUmg)
 
 ---
 
