@@ -223,12 +223,6 @@ function HomeContent() {
                             >
                               Terminate Session (Disconnect)
                             </button>
-                            <button 
-                              onClick={CreateTopic}
-                              className="w-full py-2 px-4 rounded-lg border border-red-500/10 bg-red-500/5 hover:bg-red-500/10 hover:border-red-500/30 text-[9px] text-red-400/60 uppercase transition-all font-bold tracking-widest cursor-pointer"
-                            >
-                              TEST BUTTON
-                            </button>
                           </div>
                         </div>
 
