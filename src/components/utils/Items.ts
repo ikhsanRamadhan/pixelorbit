@@ -14,6 +14,14 @@ export const rarityColors: Record<string, string> = {
     Common: 'text-gray-400',
 };
 
+export const rarityBgColors: Record<string, string> = {
+    Legendary: 'bg-orange-500',
+    Epic: 'bg-purple-500',
+    Rare: 'bg-blue-400',
+    Uncommon: 'bg-green-400',
+    Common: 'bg-gray-400',
+};
+
 export interface item {
     name: string;
     image: string;
