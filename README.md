@@ -23,44 +23,34 @@ PixelOrbit is an evolutionary Web3 gaming experience that revives the classic Sp
 Traditional blockchain gaming often suffers from unpredictable gas fees, slow block times, and complex smart contract vulnerabilities.
 PixelOrbit solves these issues by:
 
-    Eliminating EVM Latency: Using HCS as the "Source of Truth" for game logic and marketplace logs, making the game feel as responsive as a traditional web app.
-
-    True Asset Ownership: All ships and items are managed directly in your Hedera account via HTS, not hidden inside a contract's state.
-
-    Transparent Economy: All marketplace trades and auction bids are logged via HCS messages, allowing for a community-auditable, immutable history.
+- Eliminating EVM Latency: Using HCS as the "Source of Truth" for game logic and marketplace logs, making the game feel as responsive as a traditional web app.
+- True Asset Ownership: All ships and items are managed directly in your Hedera account via HTS, not hidden inside a contract's state.
+- Transparent Economy: All marketplace trades and auction bids are logged via HCS messages, allowing for a community-auditable, immutable history.
 
 ## 💡 Why PixelOrbit on Hedera?
 
 The gaming industry demands scalability. By building on Hedera, PixelOrbit offers:
 
-    Instant Transaction Finality: No more waiting for multiple block confirmations.
-
-    Fixed Fees: Transaction costs are ultra-low and pegged to USD (paid in HBAR), protecting players from price volatility.
-
-    Negative Carbon Footprint: Play on the most energy-efficient public network in the industry.
+- Instant Transaction Finality: No more waiting for multiple block confirmations.
+- Fixed Fees: Transaction costs are ultra-low and pegged to USD (paid in HBAR), protecting players from price volatility.
+- Negative Carbon Footprint: Play on the most energy-efficient public network in the industry.
 
 ## 🎁 Value to Players
 
-Fast, classic gameplay with modern Web3 rewards.
-
-    Tamper-proof global leaderboard powered by HCS.
-
-    Native HTS NFTs with built-in royalty support for creators.
-
-    A transparent marketplace and auction system utilizing Consensus messages.
+- Fast, classic gameplay with modern Web3 rewards.
+- Tamper-proof global leaderboard powered by HCS.
+- Native HTS NFTs with built-in royalty support for creators.
+- A transparent marketplace and auction system utilizing Consensus messages.
 
 
 ## 🔗 Hedera Architecture
 
 PixelOrbit leverages native Hedera services for maximum efficiency:
 
-    Hedera Token Service (HTS): Handles the creation, transfer, and association of all spaceship and item NFTs.
-
-    Hedera Consensus Service (HCS): Acts as the decentralized messaging bus for high scores, battle logs, and marketplace transactions.
-
-    Mirror Nodes: Used to query HCS data and token balances without taxing the main network.
-
-    HashPack WalletConnect: The industry standard for secure, mobile-friendly wallet interaction on Hedera.
+- Hedera Token Service (HTS): Handles the creation, transfer, and association of all spaceship and item NFTs.
+- Hedera Consensus Service (HCS): Acts as the decentralized messaging bus for high scores, battle logs, and marketplace transactions.
+- Mirror Nodes: Used to query HCS data and token balances without taxing the main network.
+- HashPack WalletConnect: The industry standard for secure, mobile-friendly wallet interaction on Hedera.
 
 
 ## 🎨 NFT Items and Tiers
