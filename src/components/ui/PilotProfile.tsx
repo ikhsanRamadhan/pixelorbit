@@ -6,7 +6,7 @@ import Pagination from '@mui/material/Pagination';
 import { MySpaceships } from '@/components/utils/Spaceships';
 import { useWalletStore } from '@/components/store/wallet-store';
 import { useHashinals } from '@/components/layout/HashinalsProvider';
-import { Items, ListItem, rarityOrder, rarityColors } from '@/components/utils/Items';
+import { Items, ListItem, rarityOrder, rarityColors, rarityBgColors } from '@/components/utils/Items';
 import { toast } from 'sonner';
 
 interface PilotProfileProps {
@@ -214,7 +214,7 @@ const PilotProfile = ({ spaceships, profileData }: PilotProfileProps) => {
                         .map((item, index) => (
                             <div key={index} className="relative aspect-square rounded-lg border border-white/5 bg-white/5 flex items-center justify-center overflow-hidden">
                                 <Image src={item.image} alt="item" width={40} height={40} className="object-contain" unoptimized />
-                                <div className={`absolute bottom-0 left-0 right-0 h-0.5 ${rarityColors[item.rarity]?.replace('text-', 'bg-') || 'bg-gray-500'}`} />
+                                <div className={`absolute bottom-0 left-0 right-0 h-0.5 ${rarityBgColors[item.rarity] || 'bg-gray-500'}`} />
                             </div>
                         ))}
                 </div>
