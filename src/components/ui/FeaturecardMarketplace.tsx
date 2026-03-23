@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "motion/react";
 import Image from "next/image";
 import { toast } from 'sonner';
 import { useHashinals } from "@/components/layout/HashinalsProvider";
-import { rarityColors, ListItem, rarityOrder } from "@/components/utils/Items";
+import { rarityColors, ListItem, rarityOrder, rarityBgColors } from "@/components/utils/Items";
 import { useWalletStore } from "@/components/store/wallet-store";
 import Pagination from "@mui/material/Pagination";
 
@@ -166,7 +166,7 @@ function FeatureCardMarketplace({ title, delay }: MarketplaceProps) {
                                         >
                                             <div className="aspect-square relative bg-black rounded-lg border border-white/5 overflow-hidden">
                                                 <Image src={item.image} alt={item.name} fill className="object-contain p-2" unoptimized />
-                                                <div className={`absolute bottom-0 left-0 right-0 ${rarityColors[item.rarity]?.replace('text-', 'bg-')} text-[7px] text-black font-black text-center uppercase`}>
+                                                <div className={`absolute bottom-0 left-0 right-0 ${rarityBgColors[item.rarity] || 'bg-gray-500'} text-[7px] text-black font-black text-center uppercase`}>
                                                     {item.rarity}
                                                 </div>
                                                 <div className={`absolute top-1 left-1 ${item.allowBids ? 'bg-blue-600' : 'bg-red-600'} text-[8px] px-1.5 py-0.5 rounded text-white font-black uppercase tracking-tighter`}>
