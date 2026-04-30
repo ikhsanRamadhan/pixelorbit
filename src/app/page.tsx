@@ -84,7 +84,7 @@ function HomeContent() {
   }, [isConnected, accountId]);
 
   return (
-    <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-6 overflow-hidden">
+    <main className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <AnimatePresence mode="wait">
         
         {/* Game Over */}
@@ -132,11 +132,11 @@ function HomeContent() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, scale: 1.1, filter: "blur(20px)" }}
             transition={{ duration: 0.8, ease: "circIn" }}
-            className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 overflow-hidden"
+            className="relative min-h-screen w-full flex flex-col items-center justify-center px-6 py-20 overflow-hidden"
           >
             <SpaceBackground />
             
-            <section className="flex flex-col items-center justify-center text-center space-y-12 mb-20 w-full max-w-6xl">
+            <section className="flex flex-col items-center justify-center text-center space-y-12 mb-20 w-full max-w-screen-2xl px-4">
               <PixelorbitLogo />
 
               <div className="w-full">
@@ -244,7 +244,7 @@ function HomeContent() {
 
             {/* Feature Grid */}
             {isConnected && (
-              <section className="w-full max-w-6xl mb-20">
+              <section className="w-full max-w-screen-2xl mb-20 px-4">
                 <div className={`${isConnected ? 'grid grid-cols-1 md:grid-cols-4' : ''} gap-6 items-stretch`}>
                   <div className="md:col-span-2 h-full">
                     <LeaderboardTable delay={0.2} />
