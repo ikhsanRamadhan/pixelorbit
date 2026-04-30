@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Orbitron } from 'next/font/google';
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 import { ClientProviders } from '@/components/layout/ClientProviders';
 import { Toaster } from "@/components/ui/Sonner";
 
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${orbitron.variable} antialiased`}
       >
+        <Analytics/>
         <ClientProviders>
           <div className="pointer-events-none fixed inset-0 z-50 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.1)_50%),linear-gradient(90deg,rgba(255,0,0,0.03),rgba(0,255,0,0.01),rgba(0,0,255,0.03))] bg-size-[100%_4px,3px_100%]" />
           {children}
